@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff2c4" />
+      <stop offset="50%" stop-color="#d4af37" />
+      <stop offset="100%" stop-color="#8e6c1e" />
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e1810" />
+      <stop offset="100%" stop-color="#080705" />
+    </radialGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="4"/>
+  <circle cx="60" cy="60" r="44" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.6"/>
+  <text x="60" y="72" font-family="'Cinzel', serif, Georgia" font-size="44" font-weight="bold" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="1">PC</text>
+  <circle cx="60" cy="22" r="3" fill="#d4af37" />
+  <circle cx="60" cy="98" r="3" fill="#d4af37" />
+</svg>
